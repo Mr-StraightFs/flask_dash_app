@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "plotlydash_flask_tutorial"
+name = "Test Flask + Dash App fro MIPA"
 version = "0.1.1"
-description = ""
+description = "a Dash web application within a Flask framework, creating a dashboard displaying a histogram graph and a DataTable populated with data from a Pandas DataFrame"
 authors = ["Amine Lh <amin.mba@iuj.ac.jp>"]
 maintainers = ["Amine Lh <amin.mba@iuj.ac.jp>"]
 license = "MIT"

@@ -8,8 +8,8 @@ def home():
     """Home page of Flask Application."""
     return render_template(
         "index.jinja2",
-        title="Plotly Dash Flask Tutorial",
-        description="Embed Plotly Dash into your Flask applications.",
+        title="Plotly Dash Flask App for MIPA ",
+        description="",
         template="home-template",
         body="This is a homepage served with Flask.",
         base_url=request.base_url,
