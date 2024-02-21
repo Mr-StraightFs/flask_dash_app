@@ -1,6 +1,5 @@
-# flask_dash_app
+# Flask_dash_app
 
-# Flask Dash Plotly Tutorial
 
 This project is a tutorial for integrating Plotly Dash with Flask, aimed at enabling data visualization and dashboard creation capabilities within Flask web applications. 
 
