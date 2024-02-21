@@ -6,7 +6,7 @@ This project is a tutorial for integrating Plotly Dash with Flask, aimed at enab
 
 ## Introduction
 
-The Flask Dash Plotly Tutorial project aims to demonstrate the integration of Plotly Dash, a Python framework for building interactive web-based visualizations, with Flask, a micro web framework written in Python. By combining these technologies, users can create powerful and customizable data visualization dashboards within Flask applications.
+The Flask Dash Plotly project aims to demonstrate the integration of Plotly Dash, a Python framework for building interactive web-based visualizations, with Flask, a micro web framework written in Python. By combining these technologies, users can create powerful and customizable data visualization dashboards within Flask applications.
 
 
 ## Installation
