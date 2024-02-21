@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "plotlydash_flask_tutorial"
+version = "0.1.1"
+description = ""
+authors = ["Amine Lh <amin.mba@iuj.ac.jp>"]
+maintainers = ["Amine Lh <amin.mba@iuj.ac.jp>"]
+license = "MIT"
+readme = "README.md"
+homepage = "git@github.com:Mr-StraightFs/flask_dash_app.git"
+repository = "git@github.com:Mr-StraightFs/flask_dash_app.git"
+documentation = "git@github.com:Mr-StraightFs/flask_dash_app.git"
+keywords = ["Flask", "Plotly", "Plotly Dash", "Data Science", "Tutorial"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+flask = "*"
+flask_assets = "*"
+dash = "*"
+dash_table = "*"
+dash_core_components = "*"
+dash_html_components = "*"
+dash-renderer = "*"
+pandas = "*"
+uWSGI = "*"
+pytest = "*"
+coverage = "*"
+mypy = "*"
+flake8 = "*"
+pylint = "*"
+black = "*"
+isort = "*"
+python-dotenv = "^1.0.0"
+cssmin = "^0.2.0"
+lesscpy = "^0.15.1"
+jsmin = "^3.0.1"
+
+[tool.poetry.scripts]
+run = "main:app"
+
+[tool.poetry.urls]
+issues = "https://github.com/toddbirchard/plotlydash-flask-tutorial/issues"
+
+[build-system]
+requires = ["poetry>=1.5.1"]
+build-backend = "poetry.masonry.api"
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = "C0103,C0301,W0703,W0621"
